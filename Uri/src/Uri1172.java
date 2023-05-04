@@ -4,9 +4,9 @@ public class Uri1172 {
 
 	public static void main(String[] args) {
 		Scanner leitor = new Scanner(System.in);
-		System.out.println("informado 10 casas ");
-		int [] numerosLidos = new int [10];
-		for(int k=0; k<10; k++) {
+		System.out.println("informado 5 casas ");
+		int [] numerosLidos = new int [5];
+		for(int k=0; k<5; k++) {
 			System.out.println("informe o num.. ");
 			int n = Integer.parseInt(leitor.nextLine());
 			if(n <= 0) {
@@ -17,7 +17,7 @@ public class Uri1172 {
 				System.out.println("olá");
 			}
 		}
-		for(int k=0; k<10; k++) {
+		for(int k=0; k<5; k++) {// roda 5 vezes
 			System.out.println("X["+k+"] = "+numerosLidos[k]);
 			
 		}
