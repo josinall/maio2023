@@ -10,6 +10,7 @@ public class lista {
 		double B = Double.parseDouble(linhaLida[1]);
 		double C = Double.parseDouble(linhaLida[2]);
 		System.out.printf("A="+A+" B="+B+" C="+C);
+		
 		//System.out.printf("B %d\n ", B);
 		//System.out.printf("C %d\n ", C);
 
