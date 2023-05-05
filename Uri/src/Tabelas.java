@@ -41,17 +41,17 @@ ArrayList<String> listaPalavras = new ArrayList<String>();
                 linha.add(linha2);
                 linha.add(linha3);
                 linha.add(linha4);
-                
+                String  g ;
 
-                for (int i = 0; i<linha.size();i++) {
-                	
-                	System.out.println(linha.get(i).getC());
+                for (int i = 0; i<linha.size();i++) {                	              	
                 	//if(linha.get(i).getC()contains){
                 		
                 	//}
                 	String p = JOptionPane.showInputDialog("Digite uma palavra");
         			listaPalavras.add(p);
-                	
+        			//System.out.println(linha.get(i).getA());
+        			System.out.println(linha.get(i).getA());
+        			
                 	//System.out.println("nome:" +nomes[k]+"nota:\n"+notas[k]);
                 	//String bb = linha.get(i).getC();
                 }
@@ -59,6 +59,7 @@ ArrayList<String> listaPalavras = new ArrayList<String>();
                 System.out.println(listaPalavras.get(0));
                 System.out.println(linha);
                 System.out.println(linha.get(0).getA());
+                //System.out.println("oi"+ g[0]);
                 /*
 
                 if(!x2.equalsIgnoreCase( linha.get(1).getB())) {
