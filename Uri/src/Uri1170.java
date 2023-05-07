@@ -1,29 +1,7 @@
-import java.util.Scanner;
-
-public class teste2 {
-
-	public static void main(String[] args) {
-		Scanner leitor = new Scanner(System.in);
-		System.out.println("digite a quantidade: \n");
-		int N = Integer.parseInt(leitor.nextLine());
-		String [] nomes= new String[N];
-		for(int k=0; k< N; k++) { //repete N vezes
-			System.out.println("informe o nome:");
-			nomes[k] = leitor.nextLine();
-			//System.out.println(nomes[k]);
-		}
-		for(int k=0; k < nomes.length; k++) {  //varre cada indice da lista e printa
-			System.out.println(nomes[k]);
-		}
-		
-	}
-
-}
-/*
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Uri1172 {
+public class Uri1170 {
 
 	public static void main(String[] args) {
 		Scanner leitor = new Scanner(System.in);
@@ -73,7 +51,7 @@ public class Uri1172 {
 				
 			}else {
 				System.out.println("você não acertou C1");
-			}//break;
+			}break;
 			//------------------------------------------------
 	        		
 			//if(digitado1 == 4) { //comparação
@@ -81,7 +59,7 @@ public class Uri1172 {
 			//	System.out.println("você acertou ");
 			//	break;
 			//}else {
-				numerosLidos[i] = i;
+				//numerosLidos[i] = i;
 			//	System.out.println("digite novamente");
 			//}
 			
@@ -105,5 +83,3 @@ public class Uri1172 {
 	}
 
 }
-*/
-
